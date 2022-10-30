@@ -1,0 +1,31 @@
+.web-title {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.home {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 8px;
+  color: blue;
+}
+.addUser {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 8px;
+  color: blue;
+}
+.updateUser {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 8px;
+  color: blue;
+}
+
+.blog {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 8px;
+  color: blue;
+}

@@ -19,7 +19,7 @@ const Update = () => {
         .then(res => res.json())
         .then(data => {
             if (data.modifiedCount > 0){
-                alert('user updated')
+                alert('User updated successfully')
                 console.log(data);
             }
             
@@ -35,7 +35,7 @@ const Update = () => {
     }
 
     return (
-        <div>
+        <div className='container'>
             <h2>Please Update: {storedUser.name}</h2>
             <form onSubmit={handleUpdateUser}>
                 <input onChange={handleInputChange} defaultValue={storedUser.name} type="text" name='name' placeholder='name' required />

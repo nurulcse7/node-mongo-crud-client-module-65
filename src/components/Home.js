@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react'
 import { Link, useLoaderData } from 'react-router-dom';
 
 const Home = () => {
@@ -26,9 +25,8 @@ const Home = () => {
                 });
         }
     }
-
-    return (
-        <div>
+  return (
+    <div className='container'>
             <h2>Users: {displayUsers.length}</h2>
             <div>
                 {
@@ -46,7 +44,7 @@ const Home = () => {
                 }
             </div>
         </div>
-    );
-};
+  )
+}
 
-export default Home;
+export default Home
